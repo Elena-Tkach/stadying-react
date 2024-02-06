@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.App {
+	width: 800px;
+	margin: 90px auto;
+	text-align: center;
+}
+
+.post {
+	padding: 20px;
+	margin-bottom: 20px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	border: 1px solid teal;
+	border-radius: 10px;
+}
+
+.post__content {
+	text-align: start;
+}
+
+
+.button {
+	cursor: pointer;
+	border: 1px solid teal;
+	padding: 10px 40px;
+	border-radius: 8px;
+	background: white;
+	transition: all .3s ease-in-out;
+}
+
+.button:hover {
+	background: teal;
+	color: white;
+}
+
+.button .active {
+	background: teal;
+	color: white;
+}
