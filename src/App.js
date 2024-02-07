@@ -5,8 +5,6 @@ import cl from './styles/App.module.css'
 import PostForm from "./components/PostForm";
 
 
-
-
 function App() {
   const [posts, setPosts] = useState(postss);
   
