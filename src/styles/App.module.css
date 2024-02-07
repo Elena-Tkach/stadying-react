@@ -28,21 +28,7 @@
 }
 
 
-.button {
-	cursor: pointer;
-	border: 1px solid teal;
-	padding: 10px 40px;
-	border-radius: 8px;
-	background: white;
-	transition: all .3s ease-in-out;
-}
 
-.button:hover {
-	background: teal;
-	color: white;
-}
-
-.button .active {
-	background: teal;
-	color: white;
+.fieldset {
+	border: none;
 }
