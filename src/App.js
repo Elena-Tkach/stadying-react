@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
 import PostList from "./components/PostList";
 import { postss } from './consts';
-import cl from './styles/App.module.css'
+import  './styles/App.css'
 import PostForm from "./components/PostForm";
 import PostFilter from "./components/PostFilter";
 import MyModal from "./UI/modal/MyModal";
@@ -34,7 +34,7 @@ function App() {
   }
 
   return (
-    <div className={cl.App}>
+    <div className='App'>
       <MyButton style={{ marginBottom: '20px' }} onClick={() => setModal(true)}>
         Создать пользователя
       </MyButton>

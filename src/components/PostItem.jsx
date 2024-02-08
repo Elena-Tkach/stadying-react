@@ -1,13 +1,13 @@
 import React from 'react';
 import MyButton from '../UI/button/MyButton';
-import cl from '../styles/App.module.css';
+import  '../styles/App.css';
 
 
 const PostItem = (props) => {
   
 	return (
-		 <li className={cl.post}>
-        <div className={cl.post__content}>
+		 <li className='post'>
+        <div className='post__content'>
 				<h3>{props.number}. {props.post.title}</h3>
 				<p>{props.post.subtitle}</p>
         </div>
