@@ -18,7 +18,7 @@ const PostForm = ({ formTitle, create }) => {
 		<>
 			<h2 style={{ marginBottom: '20px' }}>{formTitle}</h2>
 			
-			<form style={{marginBottom: '60px'}}>
+			<form>
 			<fieldset style={{border: 'none'}}>
 					<MyInput 
 						value={post.title}
