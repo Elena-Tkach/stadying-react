@@ -3,6 +3,10 @@ import PostItem from './PostItem';
 import cl from '../styles/App.module.css';
 
 const PostList = ({ posts, title, remove }) => {
+	if (!posts.length) {
+		return (<h1 style={{color: 'blue'}}>Постов больше нет</h1>)
+	}
+
 	return (
 		<>
 			<h1 style={{ marginBottom: '50px' }}>{title}</h1>
