@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, {  useState } from "react";
 import PostList from "./components/PostList";
 import { postss } from './consts';
 import  './styles/App.css'
